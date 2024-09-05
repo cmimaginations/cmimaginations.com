@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    height: auto;
+}
+
+.tile {
+    border: solid black;
+    height: 100vh;
+    width: 50vw;
+    text-align: center;
+    margin: 8px;
+    transition-duration: 1s;
+}
