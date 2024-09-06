@@ -11,13 +11,24 @@ html, body, main {
 
 section {
     height: auto;
+
+    background-image: linear-gradient(rgba(0, 0, 0, .34), rgba(0, 0, 0, .34)), url("mixing_console_BW_Downscaled.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tile {
-    border: solid black;
+    /*border: solid black;*/
     height: 100vh;
     width: 50vw;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 8px;
     transition-duration: 1s;
+    background-color: white;
 }
