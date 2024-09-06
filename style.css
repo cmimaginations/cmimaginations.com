@@ -28,7 +28,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 8px;
+    /*margin: 8px;*/
     transition-duration: 1s;
     background-color: white;
 }

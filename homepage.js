@@ -7,7 +7,7 @@ function sideScrollTile(tile) {
     const {windowHeight, windowWidth} = window;
     const {top, left, bottom, right} = tile.getBoundingClientRect(); 
     
-    if ((top > 0)) {
+    if ((top >= 0)) {
         tile.style.transform = "translateX(0)";
         //tile.style.position = "relative";
     }
